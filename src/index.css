@@ -1,9 +1,11 @@
 body{
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   background-color: #1A1B21;
   color: white;
   font-family: "Inter", sans-serif;
+  max-width: 392px;
+  position: relative;
 }
 
 .container{
@@ -92,4 +94,27 @@ i{
   color: #DCDCDC;
   font-size: 0.8rem;
   line-height: 1.5em;
+}
+
+/* Footer Styling */
+.footer{
+  width: 100%;
+  background-color: #161619;
+  position: relative;
+  top: auto;
+  bottom: 0;
+  margin-top: 1.2em;
+}
+
+.icons-wrapper{
+  padding: 1em 2em;
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+}
+
+.icons{
+  color: #918E9B;
+  font-size: 2.2rem;
+  cursor: pointer;
 }
